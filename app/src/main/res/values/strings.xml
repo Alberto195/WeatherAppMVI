@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="search">search</string>
+    <string name="find">Найти</string>
+    <string name="humidity">Влажность:</string>
+    <string name="temp">Температура:</string>
+    <string name="city">Город:</string>
+</resources>

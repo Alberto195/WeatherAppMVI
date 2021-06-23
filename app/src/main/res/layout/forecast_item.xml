@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/purple_200"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textSize="25sp"
+        android:text="Дата"/>
+
+        <TextView
+        android:id="@+id/temp_adapt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/purple_200"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textSize="25sp"
+        android:text="@string/temp"/>
+
+    <TextView
+        android:id="@+id/humidity_adapt"
+        android:text="@string/humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/purple_200"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textSize="25sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/weatherFragment"
+        android:icon="@drawable/common_full_open_on_phone"
+        android:title="Today"/>
+    <item
+        android:id="@+id/forecastFragment"
+        android:icon="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:title="7 Days"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/common_google_signin_btn_text_disabled"
+        android:title="Settings"/>
+</menu>
